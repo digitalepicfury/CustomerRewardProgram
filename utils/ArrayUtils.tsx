@@ -15,5 +15,5 @@ export const processNewLine = (item: String) => {
 } 
 
 export const convertProductsToItems = (products: IProduct[], orderNumber: number) => {
-    return products.map((product: IProduct, idx: number) => ({ id: idx, orderNumber, product }));
+    return products.map((product: IProduct, idx: number) => ({ id: idx, orderNumber, productId: product.id }));
 }
