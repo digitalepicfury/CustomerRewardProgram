@@ -16,7 +16,7 @@
 .shopText {
     position: absolute;
     top: calc(50% - 40px);
-    left: calc(50% - 700px);    
+    left: calc(50% - 640px);    
     color: rgba(255, 255, 255, 0.5);
     text-shadow:
       0 0 7px #0089FF,

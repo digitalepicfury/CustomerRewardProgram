@@ -25,7 +25,7 @@ export default function OrderListItem({ order, rewardAmount }: { order: IOrder; 
 
                     <div className={styles.box2}>
                         <Typography component="h5" variant="h5">
-                            {`Reward Amount`}
+                            {`Reward Points`}
                         </Typography>
                         <Typography component="h3" variant="h3" className={styles.amount}>
                             {rewardAmount}
