@@ -46,7 +46,7 @@
 
 .featureText {
     display: grid;
-    grid-template-columns: minmax(50px, 1fr) auto minmax(50px, 1fr);
+    grid-template-columns: minmax(150px, 1fr) auto minmax(150px, 1fr);
     align-items: center;
     text-align: center;
     gap: 40px;
@@ -56,6 +56,7 @@
     content: '';
     border-top: 2px dashed;
     padding: 4px 4px;
+    margin-top: 8px;
     border-bottom: 2px dashed;
     color: rgba(0, 0, 0, 0.8); 
 }
