@@ -46,7 +46,7 @@
 
 .featureText {
     display: grid;
-    grid-template-columns: minmax(150px, 1fr) auto minmax(150px, 1fr);
+    grid-template-columns: minmax(75px, 1fr) auto minmax(75px, 1fr);
     align-items: center;
     text-align: center;
     gap: 40px;

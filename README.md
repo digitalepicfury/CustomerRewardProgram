@@ -16,36 +16,21 @@ Make up a data set to best demonstrate your solution
 
 **Here is the dataset:**
 
-https://github.com/digitalepicfury/CustomerRewardProgram/blob/master/src/api/orders/orders.json
+https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/src/api/orders/orders.json
 
 # View the App
 
 **Here is a link to view the deployed app:**
 
-https://customer-reward-program.vercel.app/
-
-# Redux Dev Tools
-
-**Access the Guide:**
-...pending adding a new resource. Missing website.
-
-I have setup Redux Dev Tools for this app! This means you can view the actions and redux store to see behind the scenes of the app.
-
-## Installation
-
-### 1. For Chrome
- - from [Chrome Web Store](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd);
-
-### 2. For Firefox
- - from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/);
+https://customer-reward-program.vercel.app/products
 
 # Guide
 
-The app contains a home screen which displays the products for sale. You can add those products to your cart. To view the cart click on the cart icon. Pressing the checkout button will create an order with the items you added to your cart. The rewards tile under [Account -> My Account -> Rewards](https://github.com/digitalepicfury/CustomerRewardProgram/blob/master/README.md#rewards-program-tile) is used to calculate rewards within a 3 month date range and additionally display the rewards accumulated monthly. The time machine will allow you to change the order's date.
+The app contains a home screen which displays the products for sale. You can add those products to your cart. To view the cart click on the cart icon. Pressing the checkout button will create an order with the items you added to your cart. The rewards tile under [Account -> My Account -> Rewards](https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/README.md#rewards-program-tile) is used to calculate rewards within a 3 month date range and additionally display the rewards accumulated monthly. The time machine will allow you to change the order's date.
 
 # Testing
 
-I would reccomend going to [Account -> My Account -> Rewards](https://github.com/digitalepicfury/CustomerRewardProgram/blob/master/README.md#rewards-program-tile)  and use 08/31/2020 as the startDate to get the correct range to display the example. The mock data best fits this range (August, September, October).
+I would reccomend going to [Account -> My Account -> Rewards](https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/README.md#rewards-program-tile)  and use 08/31/2020 as the startDate to get the correct range to display the example. The mock data best fits this range (August, September, October).
 
 ![reward-date-range](https://user-images.githubusercontent.com/64053527/91760915-bb1d3a80-eb99-11ea-970d-ed7c13d95b15.png)
 
@@ -123,7 +108,7 @@ The rewards will be seperated out in one month increments displaying the total r
 
 When creating order's typically today's date is used for the order's date. You will want to change this date to control the orders date.
 
-**View Guide:** https://github.com/digitalepicfury/CustomerRewardProgram/blob/master/README.md#time-machine
+**View Guide:** https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/README.md#time-machine
 
 ## Add To Cart
 
@@ -145,7 +130,7 @@ When you press the checkout button the order will be created with the order date
 
 ![cart-checkout](https://user-images.githubusercontent.com/64053527/91765273-4ac4e800-eb9e-11ea-89e8-ab36ac85372e.png)
 
-Press OK on the dialog. You can always view your order under [Account -> My Account -> Orders](https://github.com/digitalepicfury/CustomerRewardProgram/blob/master/README.md#orders-tile)
+Press OK on the dialog. You can always view your order under [Account -> My Account -> Orders](https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/README.md#orders-tile)
 
 ![order-created-dialog](https://user-images.githubusercontent.com/64053527/91765451-a42d1700-eb9e-11ea-96de-7e193c43b364.png)
 
