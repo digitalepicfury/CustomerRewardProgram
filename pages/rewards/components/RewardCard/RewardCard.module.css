@@ -1,0 +1,24 @@
+.root {
+    max-width: 345px;
+    margin-right: 25px;
+    margin-left: 25px;
+    max-height: 350px;
+}
+
+.media {
+    height: 150px;
+    background-size: 50%;
+}
+
+.cardAction {
+    flex: 1;
+}
+
+.button {
+    width: 100%;
+}
+
+.total {
+    font-weight: 100;
+    text-align: center;
+}

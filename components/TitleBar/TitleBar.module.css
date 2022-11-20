@@ -1,0 +1,25 @@
+.toolbar {
+    display: flex;     
+}
+
+.dropDownMenu {
+    display: flex;    
+    justify-content: flex-end;    
+    width: 100%;
+}
+
+.menuButton {
+    color: white;
+}
+
+.menuButton {
+    margin-right: 10px;
+}
+
+.icon {
+    color: white;
+}
+
+.title {
+    width: 300px;
+}

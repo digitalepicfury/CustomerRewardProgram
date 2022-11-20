@@ -1,0 +1,194 @@
+{
+    "orders": [
+      {
+        "id": 1,
+        "customerID": 5,
+        "orderNumber": 1,        
+        "amount": 91.33,
+        "date": "2020-01-12",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 1,        
+            "productId": 1
+          },        
+          {
+            "id": 2,
+            "orderNumber": 1,        
+            "productId": 4
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "customerID": 5,
+        "orderNumber": 2,        
+        "amount": 53.93,
+        "date": "2020-05-28",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 2,        
+            "productId": 1   
+          }        
+        ]        
+      },
+      {
+        "id": 3,
+        "customerID": 5,
+        "orderNumber": 3,        
+        "amount": 273.04,
+        "date": "2020-07-04",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 3,        
+            "productId": 5
+          },
+          {
+            "id": 2,
+            "orderNumber": 3,      
+            "productId": 2   
+          },
+          {
+            "id": 2,
+            "orderNumber": 3,   
+            "productId": 4                         
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "customerID": 5,
+        "orderNumber": 4,        
+        "amount": 310.04,
+        "date": "2020-08-29",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 4,        
+            "productId": 3            
+          },
+          {
+            "id": 2,
+            "orderNumber": 4,        
+            "productId": 5               
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "customerID": 5,
+        "orderNumber": 5,        
+        "amount": 125.27,
+        "date": "2020-09-29",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 5,        
+            "productId": 4           
+          },
+          {
+            "id": 2,
+            "orderNumber": 5,        
+            "productId": 5                   
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "customerID": 5,
+        "orderNumber": 6,        
+        "amount": 162.72,
+        "date": "2020-10-29",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 6,        
+            "productId": 5                    
+          },
+          {        
+            "id": 2,
+            "orderNumber": 6,        
+            "productId": 4            
+          },
+          {
+            "id": 3,
+            "orderNumber": 6,        
+            "productId": 4           
+          },
+          {
+            "id": 4,
+            "orderNumber": 6,        
+            "productId": 5                   
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "customerID": 5,
+        "orderNumber": 7,        
+        "amount": 213.09,
+        "date": "2020-11-29",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 7,        
+            "productId": 4      
+          },
+          {
+            "id": 2,
+            "orderNumber": 7,        
+            "productId": 5                    
+          },
+          {
+            "id": 3,
+            "orderNumber": 7,        
+            "productId": 5               
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "customerID": 5,
+        "orderNumber": 8,        
+        "amount": 37.45,
+        "date": "2021-01-17",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 8,        
+            "productId": 4             
+          }        
+        ]
+      },
+      {
+        "id": 9,
+        "customerID": 5,
+        "orderNumber": 9,        
+        "amount": 87.82,
+        "date": "2020-10-13",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 9,        
+            "productId": 5           
+          }        
+        ]
+      },
+      {
+        "id": 10,
+        "customerID": 5,
+        "orderNumber": 10,        
+        "amount": 222.22,
+        "date": "2020-09-13",      
+        "items": [
+          {        
+            "id": 1,
+            "orderNumber": 10,        
+            "productId": 3            
+          }        
+        ]
+      }
+    ]
+  }

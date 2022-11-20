@@ -1,0 +1,49 @@
+.root {
+    flex-grow: 1;          
+}
+
+.screen {
+    flex-grow: 1;
+    padding-bottom: 120px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoutSection {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.tileImage {
+    width: 151px;
+    background-size: 50%;
+}
+
+.checkoutCard {
+    display: flex;
+    min-width: 345px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.checkoutButton {   
+    margin-right: 50px;
+    height: 50px;    
+}
+
+.aligner {    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;    
+}
+
+.spacer {
+    flex-grow: 10px;
+}

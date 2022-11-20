@@ -1,0 +1,52 @@
+{
+    "products": [      
+      {
+        "id": 1,        
+        "name": "Pool Party Pack",
+        "joke": "Today a man knocked on my door and asked for a small donation towards the local swimming pool. \n I gave him a glass of water. \n Donate something better for your summer pool party with the Pool Party Pack!",
+        "description": "Everything you need to start a party. Friends not included.",                
+        "amount": 53.93,
+        "image": "./images/evening-4602394_960_720.jpg"
+      },
+      {
+        "id": 2,        
+        "name": "Scrub Dubby Deal",
+        "joke": "Quarantine Tip #19: Yesterday I ran out of soap and body wash and all I could find was dish detergent. \n Then it Dawned on me. \n Never run out of soap with this deal!",
+        "description": "Clean up nicely with this deal.",                
+        "amount": 147.77,
+        "image": "./images/soap-589824_960_720.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Coolest Cooler Steal",
+        "joke": "When building the coolest computer consider our CPU cooler! Keep your CPU cooler with our 200 CFC CPU cooler.",
+        "description": "Be blown away by the savings of this chill deal.",                
+        "amount": 222.22,
+        "image": "./images/cpucooler-3612344_960_720.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Beach Ball Bundle",
+        "joke": "What did the ocean say to the pirate? \n Nothing—it just waved! \n Surfs up with everything you need to have fun on the beach!",
+        "description": "Beach party in a box. Delivered to any beach. Beach house included.",                
+        "amount": 37.45,
+        "image": "./images/beach-5422214_960_720.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Rubber Ducky Deal",
+        "joke": "Rubber duckie you're the one. \n You make bath time lots of fun \n Rubber duckie I'm awfully fond of you \n Rubber duckie joy of joys \n When I squeeze you, you make noise \n Rubber duckie you're my very best friend it's true. \n This rubber ducky deal is just for you!",
+        "description": "Rubber Ducky the only friend a developer needs.",                
+        "amount": 87.82,
+        "image": "./images/duck-4044472_1280.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Truckload of Toilet Paper",
+        "joke": "Why did the toilet paper act so cool? Because it was on a roll.",
+        "description": "You will never run out. One day shipping. Dropped in your front yard.",                
+        "amount": 22.54,
+        "image": "./images/EUhgu4fX0AAg4QH.jpg"
+      }
+    ]
+  } 

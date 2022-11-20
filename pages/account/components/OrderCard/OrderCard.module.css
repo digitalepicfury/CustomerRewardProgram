@@ -1,0 +1,31 @@
+.root {        
+    margin-right: 25px;        
+    margin-left: 25px;  
+    max-height: 100px;     
+}
+
+.media {
+    height: 140px;
+    background-size: 50%;
+}
+
+.actions {
+    flex: 1;
+    align-items: right;
+    justify-content: right;
+}
+
+.tile {
+    display: flex;
+    width: 545px;
+}
+
+.tileContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.tileImage {
+    width: 151px;
+    background-size: 65%;
+};

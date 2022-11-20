@@ -1,0 +1,1 @@
+export { default as CartProductTile } from './CartProductTile/CartProductTile';

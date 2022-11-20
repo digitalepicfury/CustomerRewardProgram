@@ -1,0 +1,21 @@
+.root {
+    flex: 1;
+    flex-grow: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;    
+}
+  
+.media {
+    height: 140px;
+}
+
+.actions {
+    flex: 1;
+    align-items: right;
+    justify-content: right;
+}
+
+.price {
+    font-weight: 100;
+}

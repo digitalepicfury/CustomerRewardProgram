@@ -1,0 +1,9 @@
+.screen {
+    flex-grow: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.grid {
+    flex-grow: 1,      
+}

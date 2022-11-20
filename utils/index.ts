@@ -1,0 +1,2 @@
+export { processNewLine, convertProductsToItems } from './ArrayUtils';
+export { getOrdersTotalReward, getOrdersWithMonths, getOrdersWithinThreeMonthsTotalReward, calculateOrdersReward, getOrdersWithinThreeMonths, getOrdersWithinDateRange, withinRange, sumArray, calculateReward } from './CalculateRewards';
