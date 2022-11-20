@@ -10,7 +10,7 @@ import { TitleBar } from "@components";
 import { useOrders } from "@hooks";
 
 import styles from './Orders.module.css';
-import { Order } from "./components";
+import { Order } from "@pageComponents/orders";
 
 const Orders = () => {
     const {orders} = useOrders();

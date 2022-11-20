@@ -8,7 +8,7 @@ import { Box, Grid, Paper, Typography } from "@mui/material";
 
 import { IProduct } from "@models";
 import { AlertDialog, TitleBar } from "@components";
-import { ProductCard } from "./components";
+import { ProductCard } from "@pageComponents/products";
 
 import styles from './Product.module.css';
 import useCart from "hooks/useCart";

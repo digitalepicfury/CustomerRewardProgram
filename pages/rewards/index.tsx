@@ -2,11 +2,10 @@ import React from "react";
 
 import { Box, Grid } from "@mui/material";
 
-import { IOrder } from "@models";
 import { calculateOrdersReward, getOrdersWithinThreeMonths, getOrdersTotalReward, getOrdersWithinThreeMonthsTotalReward } from "@utils";
 
 import { TitleBar } from "@components";
-import { RewardCard, RewardCardPickDate, RewardModal } from "./components";
+import { RewardCard, RewardCardPickDate, RewardModal } from "@pageComponents/rewards";
 
 import styles from './Reward.module.css';
 import { useOrders } from "@hooks";

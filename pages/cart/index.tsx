@@ -14,7 +14,7 @@ import styles from './Cart.module.css';
 import { convertProductsToItems } from "@utils";
 import { useCart, useOrders, useTimeMachine } from "@hooks";
 
-import { CartProductTile } from "./components";
+import { CartProductTile } from "@pageComponents/cart";
 
 const Cart = () => {
     const {total, products, clearCart} = useCart();    
