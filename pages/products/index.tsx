@@ -30,14 +30,14 @@ const Product = () => {
             <AlertDialog open={open} title={"Item added to cart"} message={"The item has been added to the cart. Click on the Cart icon on the title bar to view your cart."} handleClose={handleClose} />
             <TitleBar title={"CYBER SHOP DISTRICT"} />
             <Paper className={styles.shopSection}>                 
-                <Typography component="h1" variant="h1" className={styles.shopText}>
+                <Typography variant="h1" className={styles.shopText}>
                     Cyber Shop District
                 </Typography>
                 <Image src={"/images/tokyo-4763976_1920.jpg"} alt={"Tokyo Shops"} fill />                     
             </Paper> 
             <Box className={styles.screen}>       
                 <Grid container className={styles.root}>      
-                    <Typography component="h3" variant="h3" className={styles.featureText}>
+                    <Typography variant="h3" className={styles.featureText}>
                         Featured Products
                     </Typography>
                     <div className={styles.spacer}/>
