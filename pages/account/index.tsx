@@ -11,7 +11,7 @@ const Account = () => {
         <Box>
             <TitleBar title="Account" />        
             <Box className={styles.screen}>            
-                <Grid container className={styles.grid} spacing={2}>
+                <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <Grid container spacing={10} justifyContent="center">
                             <OrderCard />
