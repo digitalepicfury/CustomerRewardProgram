@@ -20,8 +20,8 @@ const Order = ({ order }: { order: IOrder }) => {
                 <Typography component="h5" variant="h5">
                     {`Order #${order.id}`}
                 </Typography>
-                <Typography component="h4" variant="h4" className={styles.price}>
-                    {`$${order.amount}`}
+                <Typography component="h4" variant="h4">
+                    <span className={styles.price}>{`$${order.amount}`}</span>
                 </Typography>
                 <Typography variant="subtitle1" color="textSecondary">                            
                     {`Order Date: ${order.date}`}

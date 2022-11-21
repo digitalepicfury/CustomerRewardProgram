@@ -19,8 +19,8 @@ export const RewardCardPickDate = ({ rewardTotal, startDate, onReviewClick, hand
             <Typography gutterBottom variant="h5" component="h2">
                 Reward Balance (Monthly)
             </Typography>
-            <Typography gutterBottom variant="h3" component="h3" className={styles.total}>           
-                {rewardTotal}
+            <Typography gutterBottom variant="h3" component="h3">           
+                <span className={styles.total}>{rewardTotal}</span>
             </Typography>
             <div className={styles.spacer}/>
             <LocalizationProvider dateAdapter={AdapterDayjs}>

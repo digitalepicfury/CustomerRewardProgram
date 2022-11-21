@@ -29,8 +29,8 @@ const OrderProduct = ({ product }: { product: IProduct }) => (
                         </Typography>
                     </div>            
                     <div className={styles.priceSection}>
-                        <Typography component="h4" variant="h4" className={styles.price}>
-                            ${product.amount}
+                        <Typography component="h4" variant="h4">
+                            <span className={styles.price}>${product.amount}</span>
                         </Typography>
                     </div>
                 </CardContent>    
