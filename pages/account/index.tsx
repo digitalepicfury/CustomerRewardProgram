@@ -9,14 +9,21 @@ import { OrderCard, RewardCard, TimeMachineCard } from "@pageComponents/account"
 const Account = () => {
     return (
         <>
-            <TitleBar title="Account" />        
-            <Grid item xs={12}>
-                <Grid container justifyContent="space-between" spacing={10}>  
-                    <OrderCard />
-                    <RewardCard />   
-                    <TimeMachineCard />
+            <TitleBar title="Account" />              
+            <div className={styles.spacer} />  
+            <div className={styles.section}>
+                <Grid container justifyContent="space-between" spacing={10} className={styles.container}>              
+                    <Grid item xs={4}>
+                        <OrderCard />
+                    </Grid>
+                    <Grid item xs={4}>
+                        <RewardCard />   
+                    </Grid>
+                    <Grid item xs={4}>
+                        <TimeMachineCard />
+                    </Grid>
                 </Grid>
-            </Grid>
+            </div>          
         </>
     );
 }
