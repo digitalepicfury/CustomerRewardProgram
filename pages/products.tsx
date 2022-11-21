@@ -16,18 +16,6 @@ import styles from '@styles/products.module.css';
 import useCart from "hooks/useCart";
 import { useProducts } from "@hooks";
 
-import localFont from '@next/font/local'
-
-const CyberFont = localFont({
-    src: [
-      {
-        path: './Cyber.ttf',
-        weight: '400',
-        style: 'normal',
-      }
-    ],
-});
-
 const Product = () => {
     const { cartAddProduct } = useCart();    
     const { products } = useProducts();    
@@ -39,14 +27,12 @@ const Product = () => {
 
     const handleAddToCartClick = (product: IProduct) => { handleClickOpen();  cartAddProduct(product); }
 
-    useEffect(() => {}, [CyberFont]);
-
     return (
         <Box>            
             <AlertDialog open={open} title={"Item added to cart"} message={"The item has been added to the cart. Click on the Cart icon on the title bar to view your cart."} handleClose={handleClose} />
             <TitleBar title={"CYBER SHOP DISTRICT"} />
             <Paper className={styles.shopSection}>                    
-                <h1 className={clsx(CyberFont.className, styles.shopText)}>
+                <h1 className={styles.shopText}>
                     Cyber Shop District
                 </h1>                 
                 <Image src={"/images/tokyo-4763976_1920.jpg"} alt={"Tokyo Shops"} fill />                     

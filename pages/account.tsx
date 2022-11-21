@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 
 import styles from '@styles/account.module.css';
 import { TitleBar } from "@components";
