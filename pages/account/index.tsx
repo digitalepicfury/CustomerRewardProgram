@@ -8,9 +8,9 @@ import { OrderCard, RewardCard, TimeMachineCard } from "@pageComponents/account"
 
 const Account = () => {
     return (
-        <Box>
+        <>
             <TitleBar title="Account" />        
-            <Box className={styles.screen}>            
+            <div className={styles.screen}>            
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <Grid container spacing={10} justifyContent="center">
@@ -20,8 +20,8 @@ const Account = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-            </Box>
-        </Box>
+            </div>
+        </>
     );
 }
 

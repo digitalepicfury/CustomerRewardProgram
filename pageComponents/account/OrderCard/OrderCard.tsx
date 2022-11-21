@@ -14,6 +14,7 @@ const OrderCard = () => (
                         className={styles.tileImage}
                         image={'./icons/carton.svg'}
                         title={"Orders"}
+                        sx={{ backgroundSize: '65%' }}
                     />
                     <div className={styles.tileContent}>
                         <CardContent>

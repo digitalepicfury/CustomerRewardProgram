@@ -20,6 +20,7 @@ const TimeMachineCard = () => {
                     className={styles.tileImage}
                     image={'./icons/time-machine.svg'}
                     title={"TimeMachineImage"}
+                    sx={{ backgroundSize: '80%' }}
                 />
                 <div className={styles.tileContent}>
                     <CardContent>

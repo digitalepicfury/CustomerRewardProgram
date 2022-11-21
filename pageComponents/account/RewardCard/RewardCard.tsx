@@ -14,6 +14,7 @@ const RewardCard = () => (
                         className={styles.tileImage}
                         image={'./icons/medal.svg'}
                         title={"Rewards"}
+                        sx={{ backgroundSize: '60%' }}
                     />
                     <div className={styles.tileContent}>
                         <CardContent>
