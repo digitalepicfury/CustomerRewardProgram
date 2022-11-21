@@ -11,17 +11,19 @@ const Account = () => {
         <>
             <TitleBar title="Account" />                          
             <div className={styles.section}>
-                <Grid container justifyContent="space-between" spacing={10} className={styles.container}>              
-                    <Grid item xs={4}>
-                        <OrderCard />
+                <div className={styles.container}>
+                    <Grid container justifyContent="space-between" spacing={10}>              
+                        <Grid item xs={4}>
+                            <OrderCard />
+                        </Grid>
+                        <Grid item xs={4}>
+                            <RewardCard />   
+                        </Grid>
+                        <Grid item xs={4}>
+                            <TimeMachineCard />
+                        </Grid>
                     </Grid>
-                    <Grid item xs={4}>
-                        <RewardCard />   
-                    </Grid>
-                    <Grid item xs={4}>
-                        <TimeMachineCard />
-                    </Grid>
-                </Grid>
+                </div>          
             </div>          
         </>
     );
