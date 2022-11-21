@@ -9,8 +9,7 @@ import { OrderCard, RewardCard, TimeMachineCard } from "@pageComponents/account"
 const Account = () => {
     return (
         <>
-            <TitleBar title="Account" />              
-            <div className={styles.spacer} />  
+            <TitleBar title="Account" />                          
             <div className={styles.section}>
                 <Grid container justifyContent="space-between" spacing={10} className={styles.container}>              
                     <Grid item xs={4}>
