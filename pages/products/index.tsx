@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from 'next/image'
 
 import _ from "lodash";
 import { v4 as uuidv4 } from 'uuid';
+
+import clsx from  'clsx';
 
 import { Box, Grid, Paper, Typography } from "@mui/material";
 
@@ -13,6 +15,18 @@ import { ProductCard } from "@pageComponents/products";
 import styles from './Product.module.css';
 import useCart from "hooks/useCart";
 import { useProducts } from "@hooks";
+
+import localFont from '@next/font/local'
+
+const CyberFont = localFont({
+    src: [
+      {
+        path: './Cyber.ttf',
+        weight: '400',
+        style: 'normal',
+      }
+    ],
+});
 
 const Product = () => {
     const { cartAddProduct } = useCart();    
@@ -29,10 +43,10 @@ const Product = () => {
         <Box>            
             <AlertDialog open={open} title={"Item added to cart"} message={"The item has been added to the cart. Click on the Cart icon on the title bar to view your cart."} handleClose={handleClose} />
             <TitleBar title={"CYBER SHOP DISTRICT"} />
-            <Paper className={styles.shopSection}>                 
-                <Typography variant="h1" className={styles.shopText}>
+            <Paper className={styles.shopSection}>                    
+                <h1 className={clsx(CyberFont.className, styles.shopText)}>
                     Cyber Shop District
-                </Typography>
+                </h1>                 
                 <Image src={"/images/tokyo-4763976_1920.jpg"} alt={"Tokyo Shops"} fill />                     
             </Paper> 
             <Box className={styles.screen}>       

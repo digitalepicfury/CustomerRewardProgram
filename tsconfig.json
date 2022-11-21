@@ -23,6 +23,7 @@
       "@models": ["./pages/api/models"],
       "@utils": ["./utils"],
       "@hooks": ["./hooks"],
+      "@font": ["./font"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils.tsc", "src/custom.d.ts"],
