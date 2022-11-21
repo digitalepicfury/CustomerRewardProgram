@@ -12,7 +12,7 @@ import { IProduct } from "@models";
 import { AlertDialog, TitleBar } from "@components";
 import { ProductCard } from "@pageComponents/products";
 
-import styles from './Product.module.css';
+import styles from '@styles/products.module.css';
 import useCart from "hooks/useCart";
 import { useProducts } from "@hooks";
 
@@ -38,6 +38,8 @@ const Product = () => {
     const handleClose = () => setOpen(false);
 
     const handleAddToCartClick = (product: IProduct) => { handleClickOpen();  cartAddProduct(product); }
+
+    useEffect(() => {}, [CyberFont]);
 
     return (
         <Box>            

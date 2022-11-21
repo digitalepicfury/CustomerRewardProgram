@@ -7,7 +7,7 @@ import { calculateOrdersReward, getOrdersWithinThreeMonths, getOrdersTotalReward
 import { TitleBar } from "@components";
 import { RewardCard, RewardCardPickDate, RewardModal } from "@pageComponents/rewards";
 
-import styles from './Reward.module.css';
+import styles from '@styles/rewards.module.css';
 import { useOrders } from "@hooks";
 
 const Reward = () => {

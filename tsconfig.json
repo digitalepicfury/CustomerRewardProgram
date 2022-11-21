@@ -20,6 +20,7 @@
       "@api": ["./pages/api"],
       "@components": ["./components"],
       "@pageComponents/*": ["./pageComponents/*"],
+      "@styles/*": ["./styles/*"],
       "@models": ["./pages/api/models"],
       "@utils": ["./utils"],
       "@hooks": ["./hooks"],

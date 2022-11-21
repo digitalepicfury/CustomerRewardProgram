@@ -9,7 +9,7 @@ import { IOrder } from "@models";
 import { TitleBar } from "@components";
 import { useOrders } from "@hooks";
 
-import styles from './Orders.module.css';
+import styles from '@styles/orders.module.css';
 import { Order } from "@pageComponents/orders";
 
 const Orders = () => {

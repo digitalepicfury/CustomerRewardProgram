@@ -28,16 +28,18 @@ export const RewardModal = ({
       aria-describedby="simple-modal-description"
     >
     <>
-      <AppBar position="static">
-          <Toolbar>          
-            <Typography variant="h6"> 
+    <AppBar position="relative">
+        <Toolbar className={styles.toolbar}>          
+            <Typography variant="h6" className={styles.title}>
               Rewards By Order
-            </Typography>
-            <IconButton edge="start" className={styles.closeButton} color="inherit" aria-label="closeButton" onClick={handleClose}>
-              <CloseIcon />
-            </IconButton> 
-          </Toolbar>
-      </AppBar>
+            </Typography>                    
+            <div className={styles.closeButton}>
+              <IconButton edge="start" color="inherit" aria-label="closeButton" onClick={handleClose}>
+                <CloseIcon />
+              </IconButton>
+            </div>
+        </Toolbar>
+    </AppBar>
       <div className={styles.paper}>
         {byDateRange ? (
             <>          

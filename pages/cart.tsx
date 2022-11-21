@@ -9,7 +9,7 @@ import { IOrder, IProduct } from "@models";
 import { AlertDialog, TitleBar } from "@components";
 import ShoppingCart from '@mui/icons-material/ShoppingCart';
 
-import styles from './Cart.module.css';
+import styles from '@styles/cart.module.css';
 
 import { convertProductsToItems } from "@utils";
 import { useCart, useOrders, useTimeMachine } from "@hooks";
