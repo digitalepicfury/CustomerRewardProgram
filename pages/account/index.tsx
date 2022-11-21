@@ -10,11 +10,13 @@ const Account = () => {
     return (
         <>
             <TitleBar title="Account" />        
-            <div>
-                <OrderCard />
-                <RewardCard />   
-                <TimeMachineCard />
-            </div>
+            <Grid item xs={12}>
+                <Grid container justifyContent="space-between" spacing={10}>  
+                    <OrderCard />
+                    <RewardCard />   
+                    <TimeMachineCard />
+                </Grid>
+            </Grid>
         </>
     );
 }
