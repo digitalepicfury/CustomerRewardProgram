@@ -10,16 +10,10 @@ const Account = () => {
     return (
         <>
             <TitleBar title="Account" />        
-            <div className={styles.screen}>            
-                <div>
-                    <Grid item xs={12}>
-                        <Grid container spacing={10} justifyContent="center">
-                            <OrderCard />
-                            <RewardCard />   
-                            <TimeMachineCard />
-                        </Grid>
-                    </Grid>
-                </div>
+            <div>
+                <OrderCard />
+                <RewardCard />   
+                <TimeMachineCard />
             </div>
         </>
     );
