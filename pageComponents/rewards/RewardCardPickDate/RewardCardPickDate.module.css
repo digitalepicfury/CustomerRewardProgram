@@ -35,3 +35,9 @@
     font-weight: 100;
     text-align: center;
 }
+
+.centerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
