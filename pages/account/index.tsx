@@ -11,7 +11,7 @@ const Account = () => {
         <>
             <TitleBar title="Account" />        
             <div className={styles.screen}>            
-                <Grid container spacing={2}>
+                <div>
                     <Grid item xs={12}>
                         <Grid container spacing={10} justifyContent="center">
                             <OrderCard />
@@ -19,7 +19,7 @@ const Account = () => {
                             <TimeMachineCard />
                         </Grid>
                     </Grid>
-                </Grid>
+                </div>
             </div>
         </>
     );
