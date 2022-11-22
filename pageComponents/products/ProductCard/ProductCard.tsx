@@ -29,7 +29,7 @@ const ProductCard = ({ product, onAddToCartClick }: { product: IProduct, onAddTo
         </div>
         <CardActions className={styles.actions}>
             <Button onClick={() => onAddToCartClick(product)} className={styles.button}>
-            <Typography variant="button">ADD TO CART</Typography>
+                <Typography variant="button">ADD TO CART</Typography>
             </Button>        
         </CardActions>
     </Card>    

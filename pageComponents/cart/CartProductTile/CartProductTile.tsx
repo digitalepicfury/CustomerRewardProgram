@@ -15,7 +15,7 @@ const CartProductTile = ({ product }: { product: IProduct}) => (
                 <CardMedia
                     className={styles.tileImage}
                     image={product.image}
-                    title={"CartProduct"}
+                    title={"CartProduct"}                    
                 />
                 <div className={styles.tileContent}>
                     <CardContent>                        

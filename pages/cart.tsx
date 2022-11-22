@@ -73,6 +73,7 @@ const Cart = () => {
                         className={styles.tileImage}
                         image={"./icons/shopping-cart.svg"}
                         title={"CartProduct"}
+                        sx={{ backgroundSize: '50%' }}
                     />
                     <div className={styles.tileContent}>
                         <CardContent>                                              

@@ -1,10 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Image from 'next/image'
 
 import _ from "lodash";
 import { v4 as uuidv4 } from 'uuid';
-
-import clsx from  'clsx';
 
 import { Box, Grid, Paper, Typography } from "@mui/material";
 

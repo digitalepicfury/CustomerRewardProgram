@@ -12,7 +12,7 @@ import cartReducer from 'store/cart';
 const useCart: any = () => {
 	const [total, setTotal] = React.useState(0.00);
 	const { actions } = cartReducer;
-	const { state , dispatch } = useGlobalStore();
+	const { state, dispatch } = useGlobalStore();
 
 	// List of Props
 	const { products } = state;

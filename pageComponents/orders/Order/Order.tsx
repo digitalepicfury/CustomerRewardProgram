@@ -3,7 +3,7 @@ import React from "react";
 import _ from "lodash";
 import { v4 as uuidv4 } from 'uuid';
 
-import { Box, Card, CardActionArea, CardActions, CardContent, Typography } from "@mui/material";
+import { Card, CardContent, Typography } from "@mui/material";
 
 import { IOrder, IItem } from "@models";
 
