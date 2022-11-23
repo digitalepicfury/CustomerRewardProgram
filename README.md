@@ -60,6 +60,8 @@ Will take you to the account screen to goto orders, rewards, and access the time
 
 When creating order's typically today's date is used for the order's date. The Time Machine will allow you to change today's date to any date of your choice. When you create an order that date you chose will be the order's date. This allows you to create data for testing the Rewards feature.
 
+I would recommend selecting this date: 08/31/2020 to match the test order data.
+
 ![time-machine-preview](https://user-images.githubusercontent.com/64053527/91751800-fd8b4b00-eb8a-11ea-8e16-ebe7d13df2c5.png)
 
 ## Orders Tile
