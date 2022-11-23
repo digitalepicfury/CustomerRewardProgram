@@ -16,7 +16,7 @@ Make up a data set to best demonstrate your solution
 
 **Here is the dataset:**
 
-https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/src/api/orders/orders.json
+[https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/src/api/orders/orders.json](https://github.com/digitalepicfury/CustomerRewardProgram/blob/main/pages/api/order/orders.json)
 
 # View the App
 
